@@ -1,0 +1,4 @@
+- kind: GitHubProjectRepository
+  url: https://github.com/hawtio/hawtio-forge
+- kind: GitHubProjectRepository
+  url: https://github.com/hawtio/hawtio-kubernetes
