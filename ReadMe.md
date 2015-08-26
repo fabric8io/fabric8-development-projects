@@ -13,3 +13,9 @@ If you have a running [Fabric8 installation on OpenShift](http://fabric8.io/guid
     mvn fabric8:apply-projects
 
 and all the projects will be imported into OpenShift for viewing in the Fabric8 console
+
+### How it works
+
+The maven plugin just uses the `projects.yml` file to list the internal/external projects to import into a kubernetes namespace (OpenShift project) which then reuses the `fabric8-devops-connector` to create the Openshift BuildConfig along with any additional jenkins builds and so forth.
+
+e.g. here's an example [projects.yml file](team-fabric8/src/main/fabric8/projects.yml)
