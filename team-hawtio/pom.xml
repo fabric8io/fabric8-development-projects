@@ -30,10 +30,6 @@
 
   <name>Fabric8 :: Environment Builder :: Team Hawtio</name>
 
-  <properties>
-    <fabric8.namespace>team-hawtio</fabric8.namespace>
-  </properties>
-
   <dependencies>
     <!-- <dependency>
       <groupId>io.fabric8.apps</groupId>
