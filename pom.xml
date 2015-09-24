@@ -58,7 +58,7 @@
   </modules>
 
   <build>
-    <defaultGoal>install</defaultGoal>
+    <defaultGoal>clean fabric8:apply-projects</defaultGoal>
 
     <plugins>
       <plugin>

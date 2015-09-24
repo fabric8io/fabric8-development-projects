@@ -1,4 +1,14 @@
 - kind: GitHubProjectRepository
+  url: https://github.com/fabric8io/kubernetes-model
+- kind: GitHubProjectRepository
+  url: https://github.com/fabric8io/kubernetes-client
+- kind: GitHubProjectRepository
   url: https://github.com/fabric8io/fabric8
 - kind: GitHubProjectRepository
-  url: https://github.com/fabric8io/quickstarts
+  url: https://github.com/fabric8io/fabric8-devops
+- kind: GitHubProjectRepository
+  url: https://github.com/fabric8io/fabric8-ipaas
+- kind: GitHubProjectRepository
+  url: https://github.com/fabric8io/ipaas-quickstarts
+- kind: GitHubProjectRepository
+  url: https://github.com/fabric8io/gofabric8
