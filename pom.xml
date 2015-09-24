@@ -28,8 +28,7 @@
   <name>Fabric8 :: Environment builder</name>
 
   <properties>
-    <!-- <fabric8.version>2.2.19</fabric8.version> -->
-    <fabric8.version>2.3-SNAPSHOT</fabric8.version>
+    <fabric8.version>2.2.34</fabric8.version>
 
     <recreate>false</recreate>
     <domain>${env.KUBERNETES_DOMAIN}</domain>
